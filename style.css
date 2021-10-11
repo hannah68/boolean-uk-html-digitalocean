@@ -611,7 +611,7 @@ footer{
 }
 
 
-/* media query */
+/* media 1380px===================================== */
 @media only screen and (max-width: 1380px){
     .hero-section{
         grid-template-columns: 2fr 1.8fr;
@@ -638,6 +638,7 @@ footer{
     
 }
 
+/* media 1310===================================== */
 @media only screen and (max-width: 1310px){
     .nav{
         width: auto;
@@ -677,7 +678,7 @@ footer{
     }
 
 }
-
+/* media 1098px===================================== */
 @media only screen and (max-width: 1098px){
     .deploy-title,
     .deploy-grid,
@@ -689,7 +690,7 @@ footer{
     }
 
 }
-
+/* media 936px===================================== */
 @media only screen and (max-width: 936px){
     .hero-section{
         grid-template-columns: 1fr;
@@ -729,21 +730,15 @@ footer{
     }
 }
 
-
+/* media 822px===================================== */
 @media only screen and (max-width: 822px){
     .hero-text h1{
         font-size: 3rem;
     }
-
-    .hero-text p{
-        font-size: 2rem;
-    }
-
     .hero-section{
         gap: 2rem;
         grid-template-rows: repeat(2,auto);
     }
-
     .deploy-title,
     .deploy-grid,
     .features-section,
@@ -764,7 +759,8 @@ footer{
 
     .deploy-title p,
     .features-section p,
-    .design-section p{
+    .design-section p,
+    .hero-text p{
         font-size: 2rem;
     }
 
@@ -829,6 +825,8 @@ footer{
         grid-template-rows: repeat(3,auto);
     }
 
+    .hero-text h1,
+    .hero-form h2,
     .deploy-title h2,
     .features-section h2,
     .service-section h2,
@@ -838,6 +836,8 @@ footer{
     .feature-item h4{
         font-size: 2rem;
     }
+    .hero-text p,
+    .deploy-grid,
     .deploy-right p,
     .deploy-title p,
     .features-section p,
@@ -849,21 +849,12 @@ footer{
     .review .review-text{
         font-size: 1.3rem;
     }
-    .deploy-grid{
-        font-size: 1.5rem;
-    }
     .service-section h2{
         width: 40rem;
         text-align: center;
         margin: 0 auto;
     }
-    .hero-text h1,
-    .hero-form h2{
-        font-size: 2rem;
-    }
-    .hero-text p{
-        font-size: 1.5rem;
-    }
+
     .footer-section{
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2,auto);
