@@ -446,7 +446,6 @@ form .form-btn{
 /* review section */
 .review-section{
     background-color: var(--secondary-color);
-    /* height: 80rem; */
     text-align: center;
     padding: 7rem 0;
 }
@@ -634,8 +633,6 @@ footer{
     .footer-section{
         width: 100rem;
     }
-    
-    
 }
 
 /* media 1310===================================== */
@@ -676,8 +673,8 @@ footer{
         width: 100rem;
         text-align: center;
     }
-
 }
+
 /* media 1098px===================================== */
 @media only screen and (max-width: 1098px){
     .deploy-title,
@@ -691,12 +688,11 @@ footer{
     .customer-section{
         height: auto;
     }
-
     .customers{
         padding: 0 2rem 0 6rem;
     }
-
 }
+
 /* media 936px===================================== */
 @media only screen and (max-width: 936px){
     .hero-section{
@@ -815,7 +811,9 @@ footer{
     .features-section,
     .service-container,
     .footer-section,
-    .design-section p{
+    .design-section p,
+    .design-section .design-img,
+    .review{
         width: 40rem;
     }
 
@@ -877,10 +875,6 @@ footer{
         grid-row: 2/-1;
     }
 
-    .design-section .design-img,
-    .review{
-        width: 40rem;
-    }
     .review-container span i,
     .design-img span i{
         font-size: 2rem;
@@ -894,9 +888,7 @@ footer{
     .features-section,
     .service-container,
     .footer-section,
-    .design-section p{
-        width: 25rem;
-    }
+    .design-section p,
     .service-section h2,
     .design-section .design-img,
     .review,
