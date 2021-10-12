@@ -688,6 +688,13 @@ footer{
     .design-section p{
         width: 90rem;
     }
+    .customer-section{
+        height: auto;
+    }
+
+    .customers{
+        padding: 0 2rem 0 6rem;
+    }
 
 }
 /* media 936px===================================== */
@@ -878,5 +885,120 @@ footer{
     .design-img span i{
         font-size: 2rem;
         padding: 0 1rem;
+    }
+}
+
+@media only screen and (max-width: 466px){
+    .deploy-title,
+    .deploy-grid,
+    .features-section,
+    .service-container,
+    .footer-section,
+    .design-section p{
+        width: 25rem;
+    }
+    .service-section h2,
+    .design-section .design-img,
+    .review,
+    .review .review-text,
+    .review img{
+        width: 25rem;
+    }
+
+    .customer-section p:nth-child(1),
+    .customer-section p:nth-child(3){
+        font-size: 1.5rem;
+    }
+    .hero-section{
+        padding: 0 3rem;
+    }
+}
+
+
+@media only screen and (max-width: 342px){
+    .hero-text h1,
+    .hero-form h2,
+    .deploy-title h2,
+    .features-section h2,
+    .service-section h2,
+    .design-section h2,
+    .review-section h2,
+    .cta-section h2,
+    .feature-item h4{
+        font-size: 1.5rem;
+    }
+    .hero-text p,
+    .deploy-grid,
+    .deploy-right p,
+    .deploy-title p,
+    .features-section p,
+    .design-section p,
+    .feature-item button,
+    .cta-section button,
+    .customer-section p:nth-child(1),
+    .customer-section p:nth-child(3),
+    .form-group input,
+    .form-disclaimer,
+    footer{
+        font-size: 1.2rem;
+    }
+
+    .navbar-logo{
+        width: 12rem;
+    }
+
+    .bars-icon,
+    .social-media a i{
+        font-size: 2rem;
+    }
+
+    .deploy-right{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4,auto);
+    }
+
+    .deploy-right-top{
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+
+    .deploy-left-bottom{
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+
+    .deploy-right-bottom{
+        grid-row: 4/-1;
+        grid-column: 1/2;
+    }
+    .hero-text{
+        margin-top: 3rem;
+    }
+
+    .col1 img, .col2 img, .col3 img,
+    .col3 img:nth-child(1){
+        width: 10rem;
+    }
+    .services{
+        font-size: 1.3rem;
+    }
+
+    .company-links{
+        gap: 3rem;
+    }
+    .company-links .pair-group{
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .copyRight-container{
+        margin: 0 auto;
+
+    }
+    .service-section h2,
+    .design-section .design-img,
+    .review,
+    .review .review-text,
+    .review img{
+        width: 20rem;
     }
 }
