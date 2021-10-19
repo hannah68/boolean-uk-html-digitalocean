@@ -34,7 +34,7 @@ header{
     flex-direction: column;
 }
 
-/* navbar styling */
+/* navbar styling ===========*/
 .nav{
     font-size: 1.8rem;
     display: flex;
@@ -74,7 +74,7 @@ header{
     border-radius: 3px;
     margin-left: 1.4rem;
 }
-/* hero */
+/* hero ======================*/
 .hero-section{
     background-color: var(--primary-color);
     background-image: url("https://assets-global.website-files.com/609187f5748b62af0092bb55/60daad4d5c47d0654c7a873b_bg-hero-do-v4.svg");
@@ -120,7 +120,7 @@ header{
     color:var(--text-blue-color);
 }
 
-/* form */
+/* form ==============*/
 form{
     margin-top: 1rem;
 }
@@ -172,7 +172,7 @@ form .form-btn{
     text-align: center;
     margin-top: 1rem;
 }
-/* Customer */
+/* Customer =============*/
 .customer-section{
     background-color: var(--secondary-color);
     height: 27rem;
@@ -215,7 +215,7 @@ form .form-btn{
     width: 17rem;
 }
 
-/* deploy section */
+/* deploy section ==============*/
 .deploy-section{
     display: flex;
     flex-direction: column;
@@ -296,8 +296,7 @@ form .form-btn{
     margin-bottom: 5px;
 }
 
-
-/* Design section */
+/* Design section ============*/
 .design-section{
     display: flex;
     flex-direction: column;
@@ -355,7 +354,7 @@ form .form-btn{
     color: var(--text-blue-color);
 }
 
-/* features section */
+/* features section===================== */
 .features-section{
     display: flex;
     flex-direction: column;
@@ -398,14 +397,12 @@ form .form-btn{
     font-size: 2rem;
 }
 
-/* service section */
+/* service section =========================*/
 .service-section{
     background-color: var(--primary-color);
     color: #fff;
     padding: 5rem 0;
-    
 }
-
 .service-section h2{
     font-size: 3.6rem;
     padding-top: 4rem;
@@ -443,7 +440,7 @@ form .form-btn{
     color: #01D5D2;
 }
 
-/* review section */
+/* review section ================*/
 .review-section{
     background-color: var(--secondary-color);
     text-align: center;
@@ -511,7 +508,7 @@ form .form-btn{
     color: var(--text-blue-color);
     margin-top: 4rem;
 }
-/* cta section */
+/* cta section======================== */
 .cta-section{
     background-color: var(--primary-color);
     color: #fff;
@@ -534,7 +531,7 @@ form .form-btn{
     font-size: 2rem;
 }
 
-/* footer section */
+/* footer section====================== */
 footer{
     background-color:var(--tertiary-color);
     color:#cccccc;
@@ -617,15 +614,12 @@ footer{
         padding: 0 7rem;
         justify-content: space-around;
     }
-
     .hero-text{
         grid-column: 1/2;
     }
-       
     .hero-form{
         grid-column: 2/3;
     }
-
     .deploy-title,
     .deploy-grid,
     .features-section,
@@ -648,7 +642,6 @@ footer{
     .navbar-right{
         display: none;
     }
-
     .bars-icon{
         display: inline-block;
         position: absolute;
@@ -657,18 +650,15 @@ footer{
         font-size: 3rem;
         color: var(--text-blue-color);
     }
-
     .navbar-logo{
         display: inline-block;
         position: absolute;
         left: 4rem;
         top: 2rem;
     }
-
     .hero-section{
         grid-template-columns: 2fr 1.8fr;
     }
-
     .design-section p{
         width: 100rem;
         text-align: center;
@@ -700,24 +690,20 @@ footer{
         grid-template-rows: repeat(2,1fr);
         gap: 0;
     }
-
     .hero-text{
         grid-column: 1/2;
         grid-row: 1/2;
         margin-bottom: 0;
     }
-
     .hero-form{
         grid-column: 1/2;
         grid-row: 2/-1;
         margin-top: 0;
     }
-
     .col1 img, .col2 img, .col3 img,
     .col3 img:nth-child(1){
         width: 13rem;
     }
-
     .deploy-title,
     .deploy-grid,
     .features-section,
@@ -726,7 +712,6 @@ footer{
     .design-section p{
         width: 80rem;
     }
-
     .footer-section .company-links{
         flex-direction: column;
         margin: 0 auto;
@@ -750,7 +735,6 @@ footer{
     .design-section p{
         width: 70rem;
     }
-
     .deploy-title h2,
     .features-section h2,
     .service-section h2,
@@ -759,14 +743,12 @@ footer{
     .cta-section h2{
         font-size: 2.5rem;
     }
-
     .deploy-title p,
     .features-section p,
     .design-section p,
     .hero-text p{
         font-size: 2rem;
     }
-
     .deploy-grid{
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2,auto);
@@ -780,31 +762,27 @@ footer{
         grid-row: 2/-1;
         grid-column: 1/2;
     }
-
     .service-container{
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2,auto);
     }
-
     .design-section .design-img,
     .review{
         width: 50rem;
     }
-
     .review .review-text{
         font-size: 1.4rem;
         width: 40rem;
         text-align: center;
         margin:1rem auto
     }
-
     .review .name,
     .review .position,
     .review .review-link{
         font-size: 1.2rem;
     }
 }
-
+/* media 720px===================================== */
 @media only screen and (max-width: 720px){
     .deploy-title,
     .deploy-grid,
@@ -816,7 +794,6 @@ footer{
     .review{
         width: 40rem;
     }
-
     .customers{
         flex-direction: column;
         justify-content: space-around;
@@ -829,7 +806,6 @@ footer{
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3,auto);
     }
-
     .hero-text h1,
     .hero-form h2,
     .deploy-title h2,
@@ -859,29 +835,25 @@ footer{
         text-align: center;
         margin: 0 auto;
     }
-
     .footer-section{
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2,auto);
     }
-
     .copyRight-container{
         grid-column: 1/2;
         grid-row: 1/2;
     }
-
     .company-links{
         grid-column: 1/2;
         grid-row: 2/-1;
     }
-
     .review-container span i,
     .design-img span i{
         font-size: 2rem;
         padding: 0 1rem;
     }
 }
-
+/* media 466px===================================== */
 @media only screen and (max-width: 466px){
     .deploy-title,
     .deploy-grid,
@@ -896,7 +868,6 @@ footer{
     .review img{
         width: 25rem;
     }
-
     .customer-section p:nth-child(1),
     .customer-section p:nth-child(3){
         font-size: 1.5rem;
@@ -906,7 +877,7 @@ footer{
     }
 }
 
-
+/* media 342px===================================== */
 @media only screen and (max-width: 342px){
     .hero-text h1,
     .hero-form h2,
@@ -934,31 +905,25 @@ footer{
     footer{
         font-size: 1.2rem;
     }
-
     .navbar-logo{
         width: 12rem;
     }
-
     .bars-icon,
     .social-media a i{
         font-size: 2rem;
     }
-
     .deploy-right{
         grid-template-columns: 1fr;
         grid-template-rows: repeat(4,auto);
     }
-
     .deploy-right-top{
         grid-row: 2/3;
         grid-column: 1/2;
     }
-
     .deploy-left-bottom{
         grid-row: 3/4;
         grid-column: 1/2;
     }
-
     .deploy-right-bottom{
         grid-row: 4/-1;
         grid-column: 1/2;
@@ -966,7 +931,6 @@ footer{
     .hero-text{
         margin-top: 3rem;
     }
-
     .col1 img, .col2 img, .col3 img,
     .col3 img:nth-child(1){
         width: 10rem;
@@ -974,7 +938,6 @@ footer{
     .services{
         font-size: 1.3rem;
     }
-
     .company-links{
         gap: 3rem;
     }
